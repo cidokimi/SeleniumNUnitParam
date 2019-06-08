@@ -52,7 +52,7 @@ namespace SeleniumNUnitParam
         [TearDown]
         public void CloseBrowser()
         {
-            Driver.Quit();
+           // Driver.Quit();
         }
     }
 }
